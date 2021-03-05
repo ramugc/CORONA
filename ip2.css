@@ -1,0 +1,302 @@
+<style>
+/* Style of body */
+  * {
+  box-sizing: border-box;
+}
+  body {
+  font-family: cursive;
+  margin: 0;
+  text-align: justify;
+  width:100%;
+  min-width:320px;
+  max-width:1200;
+  margin:0 auto;
+/* .................. */
+}
+/* for making grid */
+.containerx{
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+	height:auto;
+    background: white;
+    margin-top: 10px;
+}
+.containerx ul{
+    padding: 10px;
+    margin: 0px;
+}
+.containerx ul li{
+    float:left;
+    list-style: none;
+    width:27.3%;
+    height:297px;
+    background: white;
+    margin :20px 0px 20px 55px; 
+    border:6px solid white;
+    box-sizing: border-box;
+}
+.containerx ul li .bottom{
+    width: 27.3%;
+    height:24.9px;
+    line-height: 50px;
+    background: white;    
+    text-align: center;
+    color:white;
+    font-size: 20px; 
+}
+/* .................. */
+/* making responsive*/
+@media screen and (max-width:1200px){
+    .containerx ul li{
+        width:50%;
+        margin-left: 40px;		       
+}}
+/* .................. */
+/* for making grid2*/
+.containerx1{
+    width: 23%;
+    margin: auto;
+    overflow: hidden;
+	height:auto;
+    background: white;
+    margin-top: 10px;
+}
+.containerx1 ul{
+    padding: 10px;
+    margin: 0px;
+}
+.containerx1 ul li{
+    float:left;
+    list-style: none;
+    width:27.3%;
+    height:50px;
+    background: white;
+    margin :20px 0px 20px 55px; 
+    border:6px solid white;
+    box-sizing: border-box;
+}
+.containerx1 ul li .bottom{
+    width: 27.3%;
+    height:24.9px;
+    line-height: 50px;
+    background: white;    
+    text-align: center;
+    color:white;
+    font-size: 20px; 
+}
+/* .................. */
+/* Style the header */
+.header {
+  background-color:##D3D3D3;
+  padding: 0px;
+  text-align: center;
+  font-family: cursive;
+  /* .................. */
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+.rightnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+/* .................. */
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.rightnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none; 
+}
+/* .................. */
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* container for map */
+.about-map {
+  float: left;
+  width: 33.3%;
+  height:auto;
+  padding: 3px;
+  background-color: #ffffff;
+  display:inline-block;
+}
+/* .................. */
+/* containerfor hospital */
+.about-hospital {
+  float: left;
+  width: 33.3%;
+  height:auto;
+  padding: 3px;
+  background-color: #ffffff;
+  /* .................. */
+}
+/* container for travel */
+ .about-travel {
+  width:33.3%;
+  height:auto;
+  padding: 3px;
+  background-color: #ffffff;
+  float:left;
+}
+/* .................. */
+/* grid container for table */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  background-color: #E4C2C1;
+  padding: 8px;
+  float: left;  
+}
+
+.grid-container > div {
+  background-color: #FEF2F2;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+/* .................. */
+/* container for text in middle */
+.middle-section {
+  padding: 2px;
+  text-align: justify;
+  background-color: #ffffff
+  color: #000000;
+  font-family: cursive;  
+}
+/* .................. */
+/*container for out team */
+.container {
+  padding: 0 6px;
+   center; 
+}
+/* .................. */
+/* for image*/
+
+.image1{
+  width:493px;
+  height:297px;
+  border-radius: 0%;
+  float: left;
+}
+/* -------------*/
+/* for image*/
+
+}
+/* -------------*/
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.title {
+  color: GREY;
+}
+.button {
+  border: #000000;
+  outline: 0;
+  display: inline-block;
+  padding: 3px;
+  color: WHITE;
+  background-color:#white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.textoverimage {
+  position: absolute;
+  font-family: cursive;
+  font-size:14px;
+}
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 10px;
+  background-color:;
+  color: white;
+}
+.text-block1 {
+  position: absolute;
+  bottom: 258px;
+  right: 100px;
+  background-color:;
+  color: black;
+}
+.button:hover {
+  background-color: #000000;
+}
+/* our team */
+    .column {
+    width:auto%;
+    display: block;
+	padding: 2px;
+	float: left;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 10px;
+ }
+.image2{
+  width:25%;
+  border-radius:25%;
+  text-align: center;
+  padding: 2px;
+  float: left;
+  }
+.outer-grid {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 0 25px;
+}
+.inner-grid {
+   flex: 24%;
+   max-width: 24%;
+   padding: 0 4px;
+}
+.inner-grid img {
+   margin-top: 8px;
+   width: 50%;
+   padding: 10px;
+}
+@media screen and (max-width: 800px) {
+   .inner-grid {
+      flex: 50%;
+      max-width: 50%;
+   }
+}
+@media screen and (max-width: 600px) {
+   .inner-grid {
+      flex: 100%;
+      max-width: 100%;
+   }
+}
+/* Footer */
+.footer {
+  padding: 3px;
+  text-align: center;
+  background: 	#808080;
+}
+.footer1 {
+  padding: 18px;
+  text-align: center;
+  background: white;
+  font-size:14px;
+}
+</style>
